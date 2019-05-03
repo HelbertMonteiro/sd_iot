@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/menu_sala"
+        app:showAsAction="always"
+        android:title="sala"/>
+
+    <item
+        android:id="@+id/menu_garagem"
+        app:showAsAction="always"
+        android:title="garagem" />
+
+    <item
+        android:id="@+id/menu_suite"
+        app:showAsAction="always"
+        android:title="suite" />
+
+    <item
+        android:id="@+id/menu_quarto"
+        app:showAsAction="always"
+        android:title="quarto" />
+
+    <item
+        android:id="@+id/menu_cozinha"
+        app:showAsAction="always"
+        android:title="cozinha" />
+
+    <item
+        android:id="@+id/menu_bsu"
+        app:showAsAction="always"
+        android:title="bc suite" />
+
+    <item
+        android:id="@+id/menu_bso"
+        app:showAsAction="always"
+        android:title="bc social" />
+
+</menu>
